@@ -406,23 +406,6 @@ dimensionedScalar DT
     transportProperties.lookup("DT")
 );
 
-Info<< "Reading diffusivity DT1\n" << endl;
-dimensionedScalar DT1
-(
-    transportProperties.lookup("DT1")
-);
-
-Info<< "Reading diffusivity DT2\n" << endl;
-dimensionedScalar DT2
-(
-    transportProperties.lookup("DT2")
-);
-
-Info<< "Reading diffusivity DT3\n" << endl;
-dimensionedScalar DT3
-(
-    transportProperties.lookup("DT3")
-);
 
 Info<< "Reading diffusivity DT4\n" << endl;
 dimensionedScalar DT4
