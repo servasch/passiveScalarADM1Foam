@@ -127,7 +127,7 @@ pH = 3 - (log10(Hplus/Unit));
 Info<< "Reading inhibition fields\n" << endl;
 volScalarField I_pH
 (
-(1+2*pow(10,(pH_LL-pH_UL)/pH))/(1+pow(10,2-pH_UL)+pow(10,pH_LL-2))
+(1+0.5*pow(10,(pH_LL-pH_UL)/pH))/(1+pow(10,pH-pH_UL)+pow(10,pH_LL-pH))
 );
 
 
